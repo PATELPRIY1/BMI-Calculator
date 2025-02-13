@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="box">
+        <div class="container">
+            <div class="left">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="">
+                    <h1>BMI Calculator</h1>
+                </div>
+                <hr>
+                <form id="bmiForm">
+                    <label for="gender">Gender:</label>
+                    <select id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" placeholder="Enter Age">
+                    <label for="height">Height:</label>
+                    <input type="number" id="height-feet" placeholder="Enter Feet">
+                    <input type="number" id="height-inches" placeholder="Enter Inches">
+                    <label for="weight">Weight (kg):</label>
+                    <input type="number" id="weight" placeholder="weight">
+                    <input type="submit" value="Calculate BMI">
+                </form>
+                <div id="result"></div>
+            </div>
+           
+        </div>
+        <div class="right">
+            <img src="./images/Healthy habit-bro.png" alt="">
+            <h2 class="title">Share Your Result With Others.</h2>
+            <div class="social-icons">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    
+    </div>
+   
+
+    <div class="rectangle"></div>
+    <div class="rectangle1"></div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
